@@ -1,0 +1,245 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.cap{
+    text-transform: uppercase;
+}
+
+b{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*///////////////HEADER//////////////*/
+/*///////////////HEADER//////////////*/
+img{
+    width: 100%;
+}
+.annonce{
+    background-color: yellow;
+    width: 100%;
+    padding: 5% 0;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial;
+}
+
+h1 span{
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;  
+}
+
+
+header div{
+    background-image: url(../images/parapluies.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15%;
+}
+
+header div p{
+    color: white;
+    font-size: 1em;
+    letter-spacing: 120%;
+    margin-top: 8%
+}
+
+
+nav{
+    background-color: #333;
+}
+
+nav ul li{
+    width: 100%;
+    /* background-color:#333; */
+    text-align: center;
+    color: white;
+    padding: 3%;
+    border-bottom: white 1px solid;
+    
+
+}
+
+
+/*///////////////ASIDE//////////////*/
+/*///////////////ASIDE//////////////*/
+.grey{
+    background-color: rgb(243, 240, 240);
+    width: 100%;
+    padding-top:10% ;
+  
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+aside{
+    width: 90%;
+    margin: 0 auto;
+}
+
+aside img{
+    margin: 4% auto
+}
+
+aside h3{
+    margin: 5% auto;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+/*///////////////MAIN//////////////*/
+/*///////////////MAIN/////////////*/
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main img {
+    margin: 5% 0 5%;;
+}
+.rouille, .street{
+    padding-top: 8%;
+}
+
+.rouille h2{
+    margin-bottom: 5%;
+}
+
+.desc{
+   font-size: 0.8em;
+   font-weight: 700;
+}
+
+.street h2{
+    margin-bottom: 5%;    
+}
+
+p{
+    margin-top: 5%;
+}
+/*///////////////FOOTER//////////////*/
+/*///////////////FOOTER/////////////*/
+
+footer{
+    background-color: lightgray;
+    padding:5%;
+    margin-top: 10%;
+    text-align: center;
+}
+/*/////////////////////////////*/
+/*////////////////////////////*//*/////////////////////////////*/
+/*////////////////////////////*//*/////////////////////////////*/
+/*////////////////////////////*/
+@media screen and (min-width:768px){
+
+    .annonce{
+        padding:3%;
+    }
+
+h1 span{
+        padding:1%
+    
+}
+
+    header div{
+        padding: 10%;
+    }
+
+nav{
+    padding: 1% 0;
+     background-color: #333;
+}
+
+  /* nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    } */
+
+
+    nav ul li{
+        padding: 0.95%;
+        display: inline;
+        text-align: left;
+        /* width: 13%;
+        height: 15%; */
+    }
+ nav ul li:hover{
+     background-color: rgb(155, 155, 155);
+     
+ }
+ nav ul li:hover a{
+    color:#000;
+ }
+.flex{
+    display: flex;
+}
+.grey{
+    flex-grow: 2;
+    flex-shrink: 2;
+    padding-top: 4%;
+}
+aside h2{
+    margin-bottom: 6%;   
+}
+
+aside p{
+    margin: 10% auto;
+}
+
+main{
+    margin: 0 5% 5%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+footer{
+    margin-top: 0;
+}
+}
+
+@media screen and (min-width:1024px){
+
+    html{
+        font-size: 120%;
+    }
+    .annonce{
+        padding:2%
+    }
+
+}
+
+@media screen and (min-width:1440px){
+
+    html{
+        font-size: 140%;
+    }
+    
+
+}
+
+@media screen and (min-width:2560px){
+
+    html{
+        font-size: 250%;
+    }
+
+    .annonce{
+        padding:1%
+    }
+
+}
